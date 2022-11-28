@@ -32,4 +32,8 @@ button_generate.addEventListener('click', function() {
         document.getElementById("deal").innerHTML = "Biglietto Ridotto del 40%";
         document.getElementById("prize_ticket").innerHTML = "€" + " " + final_prize;
     }
+
+    // far comparire e scomparire carrozza e cp
+    document.getElementById("ciao").classList.remove("d-none");
+    document.getElementById("ciao_2").classList.remove("d-none");
 });

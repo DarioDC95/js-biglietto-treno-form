@@ -111,3 +111,7 @@ button:hover {
 .padding-20 {
     padding: 20px;
 }
+
+.d-none {
+    display: none;
+}
