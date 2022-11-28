@@ -24,11 +24,19 @@
                                     <input type="text" name="name_surname" id="name_surname" class="text-center">
                                 </div>
                                 <div class="km_info flex-column">
-                                    <label for="km">Nome e Cognome</label>
+                                    <label for="km">Km da percorrere</label>
                                     <input type="text" name="km" id="km" class="text-center">
                                 </div>
+                                <div class="age_info flex-column">
+                                    <label for="age">Fascia d'età</label>
+                                    <select name="age" id="range_age">
+                                        <option value="Minorenne">Minorenne</option>
+                                        <option value="Maggiorenne">Maggiorenne</option>
+                                        <option value="Over 65">Over 65</option>
+                                    </select>
+                                </div>
                             </form>
-                            <button>Genera</button>
+                            <button id="generate">Genera</button>
                             <button>Annulla</button>
                         </div>
                     </div>
