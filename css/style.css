@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+main {
+    background-color: #b91550;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.mycontainer {
+    max-width: 900px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
