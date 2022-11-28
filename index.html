@@ -15,29 +15,29 @@
                 <div class="mycol">
                     <div class="mycard">
                         <div class="mycard-head text-center">
-                            <h3>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h3>
+                            <h2 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
                         </div>
                         <div class="mycard-body text-center">
                             <form action="">
                                 <div class="client_info flex-column">
-                                    <label for="name_surname">Nome e Cognome</label>
-                                    <input type="text" name="name_surname" id="name_surname" class="text-center">
+                                    <label for="name_surname" class="text-brown">Nome e Cognome</label>
+                                    <input type="text" name="name_surname" id="name_surname" class="text-center input">
                                 </div>
                                 <div class="km_info flex-column">
-                                    <label for="km">Km da percorrere</label>
-                                    <input type="text" name="km" id="km" class="text-center">
+                                    <label for="km" class="text-brown">Km da percorrere</label>
+                                    <input type="text" name="km" id="km" class="text-center input">
                                 </div>
                                 <div class="age_info flex-column">
-                                    <label for="age">Fascia d'età</label>
-                                    <select name="age" id="range_age">
+                                    <label for="age" class="text-brown">Fascia d'età</label>
+                                    <select name="age" id="range_age" class="input">
                                         <option value="Minorenne">Minorenne</option>
                                         <option value="Maggiorenne">Maggiorenne</option>
                                         <option value="Over 65">Over 65</option>
                                     </select>
                                 </div>
                             </form>
-                            <button id="generate">Genera</button>
-                            <button>Annulla</button>
+                            <button id="generate" class="text-brown">Genera</button>
+                            <button class="text-brown">Annulla</button>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,34 @@
             <div class="myrow">
                 <div class="mycol">
                     <div class="mycard">
-                        
+                        <div class="mycard-head text-center">
+                            <h2 class="text-white">IL TUO BIGLIETTO</h2>
+                        </div>
+                        <div class="mycard-body-bt">
+                            <h3>DETTAGLIO PASSEGGERI</h3>
+                            <div class="passengers-details">
+                               <div class="passenger-name padding-20">
+                                <h3>NOME PASSEGGERO</h3>
+                                <h4 id="name_profile"></h4>
+                               </div>
+                               <div class="padding-20">
+                                <h5>Offerta</h5>
+                                <div id="deal"></div>
+                               </div>
+                               <div class="padding-20">
+                                <h5>Carrozza</h5>
+                                <div>5</div>
+                               </div>
+                               <div class="padding-20">
+                                <h5>Codice CP</h5>
+                                <div>92911</div>
+                               </div>
+                               <div class="padding-20">
+                                <h5>Costo Biglietto</h5>
+                                <div id="prize_ticket"></div>
+                               </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
